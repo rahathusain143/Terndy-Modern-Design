@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" ,sans-serif;
+}
+html,
+body {
+    background-image: url(Hero\ Section.png);
+    object-fit: cover;
+    height: 1024px;
+    width: 100%;
+}
+.main {
+    height: 100%;
+    width: 100%;
+}
+.nav-row {
+    margin: 20px 60px;
+}
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+}
+.nav-link li {
+    list-style: none;
+}
+.nav-link li a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+.logo h1 span {
+    color: #51D2B8;
+}
+
+.ag-tag-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+.content {
+    height: 44px;
+    width: 296px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   border-radius: 100px;
+   background: rgba(255, 255, 255, 0.1); /* transparent white */
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(10px); /* main glass effect */
+   -webkit-backdrop-filter: blur(10px); /* Safari support */
+   border: 2px solid #4f6d6a94;
+   color: white;
+}
+.text {
+    margin-top: 1rem;
+}
+.text h1 {
+  font-family: "Prociono", serif;
+  font-size: 90px;
+  font-weight: 1;
+  font-style: normal;
+  color: #D4FEFC;
+  text-align: center;
+}
+.text p {
+    font-size: 24px;
+    color: #D4FEFC;
+    font-weight: 200;
+    text-align: center;
+}
+
+.button-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.main-button {
+    height: 59px;
+    width: 662px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-button li {
+    list-style: none;
+}
+.main-button li a {
+    text-decoration: none;
+    color: #fff;
+}
+.fast-btn {
+    height: 59px;
+    width: 350px;
+    background: #4f6d6a86;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 100px;
+}
+.towend-btn {
+    height: 59px;
+    width: 242px;
+    border: 2.5px solid #4f6d6a86;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 100px;
+}
+
+.logo-clint-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    margin-left: -1.5rem;
+    margin-top: 9rem;
+}
+.box-1-content {
+    display: flex;
+    gap: 10px;
+}
+.div-1 {
+    color: #fff;
+}
+.div-1 h1 {
+    font-size: 32px;
+    font-weight: initial;
+
+}
+.div-1 p {
+    font-size: 10px;
+    font-weight: 300px;
+}
+.div-2 {
+    height: 120px;
+    width: 2px;
+    background: #fff;
+}
+.box-2-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.box-3 {
+    width: 172px;
+    height: 60px;
+    background-image: url(Frame\ 10.png);
+    object-fit: cover;
+}
+.box-4 {
+    width: 155px;
+    height: 60px;
+    background-image: url(Frame\ 9.png);
+    object-fit: cover;
+}
+.box-5 {
+    width: 142px;
+    height: 38px;
+    background-image: url(Frame\ 8.png);
+    object-fit: cover;
+}
+.box-6 {
+    width: 159px;
+    height: 18px;
+    background-image: url(Guru\ Gor.png);
+    object-fit: cover;
+}
